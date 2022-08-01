@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+  <link rel="stylesheet" href="workout.css">
+</head>
+<body>
+ 
+  <div class="container">
+   <div class='background'>
+    <div class="bigCloudBox">
+      <!-- <div class="bc1"></div>
+      <div class="bc2"></div>
+      <div class="bc3"></div>
+      <div class="bc4"></div>
+      <div class="bc5"></div>
+      <div class="bc6"></div> -->
+    </div>
+    <div class="sun"></div>
+   
+      <div class="cloudbox">
+        <!-- <div class="c1"></div>
+        <div class="c2"></div>
+        <div class="c3"></div>
+        <div class="c4"></div>
+        <div class="c5"></div>
+        <div class="c6"></div>
+        <div class="c7"></div>
+        <div class="c8"></div>
+        <div class="c9"></div> -->
+
+      </div>
+      <div class='mount4'><div class="snow"></div>777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77
+      777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777777 777 777 777 777 777 777 </div>
+      <div class='mount2b'>VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVVVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVVVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVVVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVVVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV VVV</div>
+      <div class='mount2'>777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77
+        777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77
+        777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77
+        777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 77 777 777 777 77 77777 777 777 777 777 777 777 777 777 777 777 777 777 77 777 777 777 777 77 777 777 77 777 77 777 777 777 777 777 777 </div> 
+      
+      <div class='mount3'></div> 
+<div class='mount1'></div>
+    </div>
+    <!-- <div class='log'>
+  <h1>Tis a Workout Log</h1>
+<input id='type' value='Type of Workout'>
+<button onclick='workout()'></button>
+</div> -->
+    <div class='weatherbox'>
+
+      <div class="temp">-°F</div>
+      <div class="summary">----</div>
+      <div class="location"></div>
+      <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    </div>
+
+    <div class="ground"> 
+      
+      <div class='selector'>
+      <label>Choose Weather State:</label>
+        <select class="weatherMenu" name="weatherMenu" style="z-index:999; position:absolute">
+          <option value="">Select One …</option>
+          <option value="clear">Clear</option>
+          <option value="partlyCloudy">Partly Cloudy</option>
+          <option value="cloudy">Mostly Cloudy</option>
+          <option value="rain">Rain</option>
+          <option value="snow">Snow</option>
+        </select><br><br>
+        <label>Choose Time State:</label>
+        <select class="timeMenu" name="timeMenu" style="z-index:999; position:absolute">
+          <option value="">Current Condition…</option>
+          <option value="sunrise">Sunrise</option>
+          <option value="day">Day</option>
+          <option value="sunset">Sunset</option>
+          <option value="night">Night</option>
+
+        </select>
+      
+    </div>
+    </div>
+    
+  </div>
+  
+  <div class='overlay'></div>
+  <script src='weather.js'></script>
+  
+  <script>
+
+  
+  </script>
+
+</body>
+
+</html>
