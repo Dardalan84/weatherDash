@@ -299,6 +299,7 @@ function showTime() {
 		document.querySelector('.ground').style.background = 'rgb(10, 40, 25)';
 		document.querySelector('.mount1').style.background = 'rgb(9, 49, 13)';
 		document.querySelector('.mount3').style.background = 'rgb(9, 49, 13)';
+		document.querySelector('.selector').style.color = 'whitesmoke';
 
 	}
 
