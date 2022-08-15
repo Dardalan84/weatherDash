@@ -47,6 +47,10 @@ window.addEventListener("load", () => {
 						weatherstate = 'cloudy';
 
 					}
+				
+					if (data.weather[0].id >= 200 && data.weather[0].id <= 299) {
+						weatherstate = 'rain';
+					}
 
 					if (data.weather[0].id >= 500 && data.weather[0].id <= 599) {
 
