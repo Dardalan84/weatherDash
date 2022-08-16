@@ -32,7 +32,7 @@ button {
     background-size: auto ;
     background-repeat: repeat;
     animation:raining .5s infinite;
-    
+    z-index:200;
 }
 
 @keyframes raining {
